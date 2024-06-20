@@ -1,0 +1,26 @@
+#navBar {
+	list-style: none;
+	display: flex;
+	text-align: right;
+	justify-content: right;
+	align-items: center;
+	margin: 0;
+	text-align: right;
+	height: 50px;
+
+	padding: 1em;
+	
+
+	li {
+		display: none;
+	}
+
+	.hamburger {
+		padding-top: 10px;
+		cursor: pointer;
+	}
+
+	.cross-menu {
+		display: none;
+	}
+}

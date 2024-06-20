@@ -1,0 +1,23 @@
+#navBar {
+  list-style: none;
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  align-items: center;
+  margin: 0;
+  text-align: right;
+  height: 50px;
+  padding: 1em;
+}
+#navBar li {
+  display: none;
+}
+#navBar .hamburger {
+  padding-top: 10px;
+  cursor: pointer;
+}
+#navBar .cross-menu {
+  display: none;
+}
+
+/*# sourceMappingURL=navbar.css.map */
