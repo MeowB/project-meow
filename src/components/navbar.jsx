@@ -10,8 +10,8 @@ function NavBar() {
 			<li><button>contact</button></li>
 
 			<div className="hamburger">
-				<img onClick={triggerMenu} id="hamburger" src={hamburgerSvg} alt="hamburger-menu" />
-				<img onClick={triggerMenu} src={xSymbol} id="cross" className='cross-menu' alt="cross-menu" />
+				<img onClick={handleClick} id="hamburger" src={hamburgerSvg} alt="hamburger-menu" />
+				<img onClick={handleClick} src={xSymbol} id="cross" className='cross-menu' alt="cross-menu" />
 				
 			</div>
 		</ul>
@@ -19,7 +19,7 @@ function NavBar() {
 
 	// changes the visibility of the menu and the image between the hamburger and the X
 	let menuIsOpen = false;
-	function triggerMenu() {
+	function handleClick() {
 		const menu = document.querySelectorAll("#navBar li");
 		const hamburger = document.querySelector('#hamburger');
 		const cross = document.querySelector('.cross-menu')
