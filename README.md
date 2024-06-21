@@ -1,4 +1,4 @@
-[Live Site URL:](https://meowb.github.io/project-meow/)
+[Live Site URL](https://meowb.github.io/project-meow/)
 
 # React + Vite
 
